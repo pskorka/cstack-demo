@@ -25,7 +25,7 @@
   const initMap = () => {
       const mapOptions = {
         zoom: 12,
-        center: { lat: -34.397, lng: 150.644 },
+        center: addresses[0].address.localization,
       };
 
       map = new google.maps.Map(document.getElementById("map") as HTMLElement, mapOptions);
