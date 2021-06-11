@@ -1,0 +1,6 @@
+:root {
+  --bs-blue: green !important;
+}
+body{
+    background: var(--bs-blue) !important;
+}
